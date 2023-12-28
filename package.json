@@ -1,0 +1,44 @@
+{
+  "name": "material-mastery-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --collect-coverage --detectOpenHandles --reporters=\"default\" --reporters=\"jest-html-reporters\"",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.2.0",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.5.3",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "redis": "^4.6.10",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.7.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "twilio": "^4.19.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "helmet": "^7.0.0",
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.5",
+    "morgan": "^1.10.0"
+  }
+}
