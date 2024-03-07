@@ -7,7 +7,7 @@ const {
 
 const username = encodeURIComponent(host);
 const pass = encodeURIComponent(password);
-const connectionString = `mongodb+srv://${username}:${pass}@cluster0.2ujc3tr.mongodb.net/${name}?retryWrites=true&w=majority`;
+const connectionString = `mongodb+srv://${username}:${pass}@data.nylr2.mongodb.net/${name}?retryWrites=true&w=majority`;
 
 // Singleton connect database
 class Database {
